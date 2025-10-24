@@ -1,0 +1,155 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Generics */
+
+body {
+    background-color: #f6f8fa;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1 {
+    display: inline;
+    font-weight: 900;
+    font-size: 2.5rem;
+    vertical-align: middle;
+}
+
+ul {
+    list-style: none;
+    padding: 10px 0;
+}
+
+li {
+    padding: 10px;
+}
+
+h2 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Utils */
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.card {
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 40px;
+}
+
+.card-header {
+    border-bottom: 2px solid #f6f8fa;
+    padding: 20px 30px;
+}
+
+.card-body {
+    padding: 20px 30px;
+}
+
+.btn {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.btn.blue {
+    color: #ffffff;
+    background-color: #2194e6;
+}
+
+.btn.gray {
+    color: #4d4d4d;
+    background-color: #fafaf0;
+    border-color: #d6d6d6;
+}
+
+.separator {
+    margin-bottom: 25px;
+    border: 1px solid #f6f8fa;
+}
+
+/* Header */
+
+header {
+    height: 70px;
+    background-color: white;
+    line-height: 70px;
+    padding-left: 20px;
+}
+
+#logo {
+    height: 50px;
+    vertical-align: middle;
+}
+
+/* List-style */
+
+#list {
+    font-size: 1.1rem;
+    margin: 5px 20px;
+    padding: 15px 0;
+
+}
+
+.spanword {
+    border: 5px solid transparent;
+    border-radius: 30px;
+    padding: 3px 7px;
+    color: #ffffff;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.bkg-blue {
+    background-color: #45abea;
+}
+
+.bkg-violet {
+    background-color: #9c72e4;
+}
+
+.bkg-green {
+    background-color: #64c0a9;
+}
+
+.bkg-orange {
+    background-color: #f29e33;
+}
+.bkg-magenta {
+    background-color: #d863a1;
+}
+
+.bkg-lime {
+    background-color: #b0c926;
+}
+
+.check-or-cross {
+    display: inline;
+    height: 10px;
+    width: 10px;
+    border: 2px solid currentColor;
+    border-radius: 50%;
+    margin-right: 7px;
+    padding: 3px;
+    vertical-align: middle;
+}
+
+.check {
+    color: #00ff00;
+}
+
+.cross {
+    color: #ff0000;
+}
